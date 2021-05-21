@@ -13,3 +13,7 @@ name = "fospring"
 [dependencies.fospring-view]
 path = "../fospring-view"
 version = "0.1.0"
+
+[features]
+fospring_vc = []
+neo = []

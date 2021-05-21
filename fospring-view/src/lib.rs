@@ -4,6 +4,6 @@ pub fn get_special_string() -> String {
 }
 
 #[cfg(feature = "neo")]
-pub fn get_special2_string() -> String {
+pub fn get_special_string() -> String {
     "feature neo on".to_string()
 }
