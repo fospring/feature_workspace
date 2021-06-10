@@ -14,3 +14,8 @@ view macros' detail by:
 ```shell
 cargo expand > xxx.log
 ```
+
+## run
+```shell script
+cargo run
+```
