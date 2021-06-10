@@ -1,6 +1,14 @@
 pub fn main() {
-    fospring_log::simple_logger::init().map_err(|err|{println!("log init error"); err}).ok();
-    println!("show_special_string_from_dp: {}", show_special_string_from_dp());
+    fospring_log::simple_logger::init()
+        .map_err(|err| {
+            println!("log init error");
+            err
+        })
+        .ok();
+    println!(
+        "show_special_string_from_dp: {}",
+        show_special_string_from_dp()
+    );
     fospring_log::using_logging();
 }
 
@@ -17,4 +25,3 @@ mod tests {
         println!("s={:?}", s);
     }
 }
-

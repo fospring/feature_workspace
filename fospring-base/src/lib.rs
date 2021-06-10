@@ -1,5 +1,5 @@
-mod errors;
 pub mod error_helper;
+mod errors;
 use errors::*;
 #[cfg(test)]
 mod tests {
