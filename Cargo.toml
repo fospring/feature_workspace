@@ -4,5 +4,6 @@
 members = [
     "fospring",
     "fospring-view",
-    "fospring-base"
+    "fospring-base",
+    "fospring-log"
 ]

@@ -11,6 +11,10 @@ edition = "2018"
 path = "../fospring-view"
 version = "0.1.0"
 
+[dependencies.fospring-log]
+path = "../fospring-log"
+version = "0.1.0"
+
 [features]
 fospring_vc = []
 neo = []
