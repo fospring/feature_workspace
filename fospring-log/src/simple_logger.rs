@@ -6,7 +6,7 @@ impl log::Log for SimpleLogger {
     }
     fn log(&self, record: &Record) {
         if self.enabled(record.metadata()) {
-            println!("{} - {}", record.level(), record.args());
+            println!("{} - {}, module_path:{:}, file:{:?}, line:{:?}", record.level(), record.args(), record.module_path_static().unwrap_or_default(), record.file().unwrap_or_default(), record.line().unwrap_or(0));
         }
     }
     fn flush(&self) {}

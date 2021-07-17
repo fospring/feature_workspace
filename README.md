@@ -17,5 +17,6 @@ cargo expand > xxx.log
 
 ## run
 ```shell script
+cd fospring
 cargo run
 ```
