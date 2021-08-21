@@ -110,6 +110,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "fospring-cc"
+version = "0.1.0"
+dependencies = [
+ "cc",
+]
+
+[[package]]
 name = "fospring-log"
 version = "0.1.0"
 dependencies = [

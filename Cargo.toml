@@ -3,6 +3,7 @@
 
 members = [
     "fospring",
+    "fospring-cc",
     "fospring-view",
     "fospring-base",
     "fospring-log",
