@@ -7,5 +7,6 @@ members = [
     "fospring-view",
     "fospring-base",
     "fospring-log",
+    "fospring-middleware",
     "xtask",
 ]
